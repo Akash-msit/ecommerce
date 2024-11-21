@@ -25,7 +25,7 @@ const Section5 = () => {
   <OwlCarousel className='owl-theme' loop items={6} margin={18} nav={false} autoplay={true} autoplayTimeout={3000} dots={false}>
       <div className="item">
         <div className="review-item">
-          <a href="#" className="review-author-name">Ronald Dahi</a>
+          <a href="#" className="review-author-name">Ronald Aks</a>
           <div className="review-ratting">
             <div className="star-rating" itemProp="reviewRating" itemScope itemType="http://schema.org/Rating" title="Rated 4 out of 5">
               <span style={{width: '60%'}} />

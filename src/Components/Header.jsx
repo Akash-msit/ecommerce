@@ -37,7 +37,7 @@ const Header = () => {
             <div className={mobileordesktop == true ? "nav-menu show-on-mobile" : "nav-menu"}>
               <ul>
                 <li className="nav-menu-item">
-                  <a href="home.html">Home</a>
+                  <a href="/">Home</a>
                   {/*Dropdown*/}
                   <div className="nav-dropdown col3-dropdown">
                     <div className="row">
@@ -819,7 +819,7 @@ const Header = () => {
                   </div>
                 </li>
                 <li className="nav-icon-item d-none d-lg-table-cell">
-                  <a className="nav-icon-trigger" href="#" title="Whishlist">
+                  <a className="nav-icon-trigger" href="/product_list" title="Whishlist">
                     <span>
                       <i className="ti-heart" />
                       <span className="nav-icon-count">0</span>
@@ -827,7 +827,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-icon-item">
-                  <div
+                  <a
                     className="nav-icon-trigger cart-sidebar-btn"
                     title="Shopping Cart"
                   >
@@ -835,22 +835,22 @@ const Header = () => {
                       <i className="ti-bag" />
                       <span className="nav-icon-count">3</span>
                     </span>
-                  </div>
+                  </a>
                 </li>
                 <li className="nav-icon-item">
-                  <div
-                    className="nav-icon-trigger dropdown--trigger"
+                  <a
+                    className="nav-icon-trigger dropdown--trigger" href="/login_register"
                     title="User Account"
                   >
                     <span>
                       <i className="ti-user" />
                     </span>
-                  </div>
+                  </a>
                   {/*Dropdown*/}
                   <div className="dropdown--menu dropdown--right">
                     <ul>
                       <li>
-                        <a href="login_register.html">My Account</a>
+                        <a href="/login_register">My Account</a>
                       </li>
                       <li>
                         <a href="#">Order Tracking</a>
