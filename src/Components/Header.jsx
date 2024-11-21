@@ -818,11 +818,11 @@ const Header = () => {
                     </span>
                   </div>
                 </li>
-                <li className="nav-icon-item d-none d-lg-table-cell">
+                <li className="nav-icon-item">
                   <a className="nav-icon-trigger" href="/product_list" title="Whishlist">
                     <span>
                       <i className="ti-heart" />
-                      <span className="nav-icon-count">0</span>
+                      <span className="nav-icon-count">4</span>
                     </span>
                   </a>
                 </li>
